@@ -1,0 +1,39 @@
+.grid {
+    position: relative;
+    display: inline-block;
+    height:300px;
+  }
+  .grid table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+  }
+  .grid table td {
+    border:1px solid red;
+  }
+
+  .grid table tr {
+    height: 20px;
+
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}

@@ -7,7 +7,17 @@ $('button').on('click', function() {
     }
     for (t = 0; t < cols; t++) {
       $('.grid table tr').each(function() {
-        $(this).append('<td></td>')
+        $(this).append('<td>&nbsp;</td>')
+        $('#data tr td').on('click', function() {
+        $(this).css('background', $('#colorPicker').val());
+        });
+
       })
     }
   })
+
+
+
+    
+
+    

@@ -5,21 +5,16 @@
   }
   .grid table {
     border-collapse: collapse;
-    position: absolute;
+    
     left: 0;
     top: 0;
     width: 200px;
-    height: 100%;
+    height: 200px;
+    float: center;
   }
   .grid table td {
     border:1px solid red;
-    
   }
-
-  .grid table tr {
-    height: 20px;
-
-}
 
 body {
     text-align: center;

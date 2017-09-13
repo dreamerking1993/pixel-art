@@ -1,41 +1,30 @@
 .grid {
     position: relative;
     display: inline-block;
-    height:300px;
-  }
-  .grid table {
+    height: 300px;
+}
+.grid table {
     border-collapse: collapse;
-    
     left: 0;
     top: 0;
     width: 200px;
     height: 200px;
     float: center;
-  }
-  .grid table td {
-    border:1px solid red;
-  }
-
+}
+.grid table td {
+    border: 1px solid red;
+}
 body {
     text-align: center;
 }
-
 h1 {
     font-family: Monoton;
     font-size: 70px;
     margin: 0.2em;
 }
-
 h2 {
     margin: 1em 0 0.25em;
 }
-
 h2:first-of-type {
     margin-top: 0.5em;
-}
-
-.HighLight {background-color:#ff0000 !important;}
-
-.selected {
-    background-color: blue;
 }
